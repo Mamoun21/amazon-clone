@@ -20,7 +20,6 @@
 }
 .product__rating {
   display: flex;
-  color: yellow;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
 .product__image {
