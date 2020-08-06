@@ -19,7 +19,9 @@ function Login() {
     e.preventDefault();
     auth
       .createUserWithEmailAndPassword(email, password)
-      .then((auth) => {})
+      .then((auth) => {
+        history.push("/");
+      })
       .catch((e) => alert(e.message));
   };
   return (
